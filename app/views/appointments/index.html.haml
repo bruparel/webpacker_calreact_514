@@ -1,0 +1,10 @@
+%h1 Webpacker React Calendar
+
+%h2 Appointments
+
+#appointments_data{data: @appointments.to_json}
+
+= javascript_pack_tag 'AppRouter'
+
+= stylesheet_pack_tag 'Appointments'
+
